@@ -1,0 +1,14 @@
+print("Python Skills")
+total = int(input("whats the total marks of the test?: "))
+marks = float(input("how much did you score?: "))
+percent = marks / total * 100
+if percent >= 85:
+    print("You secured an A")
+elif percent >= 70 and percent < 85:
+    print("You secured a B")
+elif percent >= 50 and percent < 70:
+    print("You secured a C")
+elif percent >= 30 and percent < 50:
+    print("You secured a D")
+else:
+    print("You secured a F")
